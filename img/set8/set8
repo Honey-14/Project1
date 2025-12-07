@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables & Lists</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        .box {
+            background-color: skyblue;
+            padding: 15px;
+            width: 60%;
+            margin: auto;
+            color: red;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Tables & Lists</h2>
+
+<div class="box">
+
+    <h3>Student List</h3>
+    <ul>
+        <li>Ravi</li>
+        <li>Meena</li>
+        <li>Anil</li>
+    </ul>
+
+    <h3>Top 3 Languages</h3>
+    <ol>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ol>
+
+    <h3>Marks Table</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Meena</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
