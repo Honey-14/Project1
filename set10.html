@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Order Form set 10</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        form {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+	 color:red;
+	background-color:skyblue;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 95%;
+            margin: auto;
+            padding: 10px;
+        }
+        button {
+	margin: auto;
+            padding: 20px;
+            width: 100%;
+font-weight: bold;
+font-size:20px;
+background-color:lightpurple;
+color:green;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pizza Order Form</h2>
+    <form onsubmit="event.preventDefault(); document.getElementById('msg').innerText='Order Placed!';">
+        <label>Your Name:</label>
+        <input type="text" name="username" /><br><br>
+
+        <label>Select Pizza Size:</label><br>
+        <input type="radio" name="size"> Small<br>
+        <input type="radio" name="size"> Medium<br>
+        <input type="radio" name="size"> Large<br><br>
+
+        <label>Toppings:</label><br>
+        <input type="checkbox"> Cheese<br>
+        <input type="checkbox"> Olives<br>
+        <input type="checkbox"> Pepperoni<br><br>
+
+        <button name="submit" type="submit">Place Order</button>
+    </form>
+<div id="msg"></div>
+</body>
+</html>
