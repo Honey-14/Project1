@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            background-color: skyblue;
+            padding: 20px;
+            margin: auto;
+            width: 70%;
+            color: red;
+        }
+        figure {
+            display: inline-block;
+            margin: 10px;
+
+        }
+        figcaption {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>My Image Gallery</h2>
+
+<div class="gallery">
+    <figure>
+        <img src="C:\Users\HP\OneDrive\Pictures\Camera Roll\WIN_20251122_16_44_09_Pro.jpg" width="200">
+        <figcaption>Image 1</figcaption>
+    </figure>
+
+    <figure>
+        <img src="C:\Users\HP\OneDrive\Pictures\Camera Roll\WIN_20251122_16_14_27_Pro.jpg" width="200">
+        <figcaption>Image 2</figcaption>
+    </figure>
+
+    <figure>
+        <img src="C:\Users\HP\OneDrive\Pictures\Camera Roll\WIN_20251119_19_33_40_Pro.jpg" width="200">
+        <figcaption>Image 3</figcaption>
+    </figure>
+</div>
+
+</body>
+</html>
